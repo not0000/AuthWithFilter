@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    你還沒登入
+</p>
+<a href="/Login/CheckLogin?id=1&pw=1" class="btn btn-primary">正常登入，id=1&pw=1</a>
+
+<a href="/Login/CheckLogin?id=1&pw=2" class="btn btn-warning">不正常登入(帳號密碼錯誤)，id=1&pw=2</a>
+
+<a href="/Home/AdminArea?PermissionUserGroup=NormalAdmin" class="btn btn-default">在網址列帶上變數，進入管理者區域AdminArea</a>
+
