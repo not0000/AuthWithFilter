@@ -1,0 +1,4 @@
+# AuthWithFilter
+利用BaseController來確認使用者是否有登入
+再利用Filter的方式確認使用者是否有存取權限
+
